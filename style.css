@@ -36,7 +36,10 @@ body {
 }
 
 /* Formal Header Typography */
-h1, h2, h3, .font-serif {
+h1,
+h2,
+h3,
+.font-serif {
     font-family: 'Cinzel', Georgia, 'Times New Roman', serif;
     color: var(--navy-dark);
     letter-spacing: -0.01em;
@@ -96,7 +99,7 @@ a {
     background: #ffffff;
     padding: 20px 7%;
     border-bottom: 1px solid var(--border-color);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
 }
 
 .brand-container {
@@ -124,7 +127,7 @@ a {
     align-items: center;
     justify-content: center;
     color: var(--gold-accent);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.12);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
     text-align: center;
 }
 
@@ -235,7 +238,7 @@ a {
 .hero-banner {
     position: relative;
     background: linear-gradient(135deg, rgba(15, 33, 55, 0.90) 0%, rgba(27, 54, 93, 0.85) 100%),
-                url('https://raw.githubusercontent.com/not-amey/clgsite/main/prayer.png') center/cover no-repeat;
+        url('https://raw.githubusercontent.com/not-amey/clgsite/main/hero.png') center/cover no-repeat;
     color: white;
     padding: 90px 7%;
     border-bottom: 4px solid var(--gold-accent);
@@ -315,7 +318,7 @@ a {
     background-color: #ffffff;
     border-bottom: 1px solid var(--border-color);
     padding: 12px 7%;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
 }
 
 .announcement-container {
@@ -445,7 +448,7 @@ a {
     height: 200px;
     object-fit: cover;
     border: 3px solid white;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
 }
 
@@ -508,9 +511,17 @@ a {
     color: white;
 }
 
-.badge-science { background-color: #1e3a8a; }
-.badge-commerce { background-color: #065f46; }
-.badge-arts { background-color: #7c2d12; }
+.badge-science {
+    background-color: #1e3a8a;
+}
+
+.badge-commerce {
+    background-color: #065f46;
+}
+
+.badge-arts {
+    background-color: #7c2d12;
+}
 
 /* Sidebar Components */
 .sidebar-box {
@@ -624,7 +635,7 @@ a {
     font-size: 16px;
     margin-bottom: 20px;
     padding-bottom: 8px;
-    border-bottom: 1px solid rgba(255,255,255,0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .footer-col p {
@@ -654,7 +665,7 @@ a {
 .footer-bottom-bar {
     background-color: #091422;
     padding: 20px 7%;
-    border-top: 1px solid rgba(255,255,255,0.08);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
     font-size: 13px;
 }
 
@@ -679,9 +690,11 @@ a {
     .main-wrapper {
         grid-template-columns: 1fr;
     }
+
     .overview-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .footer-container {
         grid-template-columns: 1fr 1fr;
     }
@@ -693,35 +706,44 @@ a {
         text-align: center;
         gap: 12px;
     }
+
     .college-brand {
         flex-direction: column;
     }
+
     .college-index {
         border-left: none;
         padding-left: 0;
         text-align: center;
     }
+
     .top-header-bar {
         flex-direction: column;
         gap: 6px;
         text-align: center;
     }
+
     .nav-container {
         flex-direction: column;
     }
+
     .nav-links-formal {
         flex-wrap: wrap;
         justify-content: center;
     }
+
     .message-card {
         grid-template-columns: 1fr;
     }
+
     .overview-grid {
         grid-template-columns: 1fr;
     }
+
     .footer-container {
         grid-template-columns: 1fr;
     }
+
     .footer-bottom-container {
         flex-direction: column;
         gap: 10px;

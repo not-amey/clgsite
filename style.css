@@ -238,7 +238,7 @@ a {
 .hero-banner {
     position: relative;
     background: linear-gradient(135deg, rgba(15, 33, 55, 0.90) 0%, rgba(27, 54, 93, 0.85) 100%),
-        url('https://raw.githubusercontent.com/not-amey/clgsite/main/hero.png') center/cover no-repeat;
+        url('https://raw.githubusercontent.com/not-amey/clgsite/main/prayer.png') center/cover no-repeat;
     color: white;
     padding: 90px 7%;
     border-bottom: 4px solid var(--gold-accent);
